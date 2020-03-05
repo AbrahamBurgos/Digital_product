@@ -1,3 +1,17 @@
+:root{
+    --green-color:#7acc2d;
+    --white-color:white;
+    --black-color: #313337;
+  /* spaciado */
+    --space:10px;
+  /* Tipografía */
+    --normal:12px;
+  /* box-shadow */
+    --box:0px 0 2px 1px #9b9999;
+    
+  }
+
+
 body{
     background-color: var(--black-color);
     text-align: center;
@@ -6,6 +20,11 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
+    padding:0px;
+    margin:0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans';
+    flex-wrap: wrap;
     }
 
     .content_paypal a{
